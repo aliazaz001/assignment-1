@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
+/* navbar start */
 nav {
     padding: 16px 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
+    max-width: 1200px;
 }
 
 .logo img {
@@ -35,17 +34,47 @@ nav {
 
 }
 
-.register button {
+.cmn-button {
     background-color: #1D4ED8;
     font-family: "Inter", sans-serif;
     font-size: 14px;
-    border-radius: 8px;
-    padding: 6px 10px;
-
-
-}
-
-.register button a {
+    border-radius: 6px;
+    padding: 16px 40px;
+    border: none;
     text-decoration: none;
-    color: #fff;
+    color: white
 }
+
+/* navbar end */
+
+/* banner start */
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/banner.jpg");
+    height:90vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.banner-content {
+    max-width: 500px;
+    text-align:center;
+    color: white;
+    padding-top: 150px;
+}
+
+.banner-content p{
+    padding-top: 10px;
+    padding-bottom: 250px;
+}
+
+.banner-content button{
+    margin-bottom: 60px;
+}
+
+
+/* banner end */
