@@ -3,7 +3,49 @@
     padding: 0;
 }
 
-nav{
+nav {
+    padding: 16px 80px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+
+
+}
+
+.logo img {
+    width: 94px;
+    height: 44px;
+
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+
+
+}
+
+.contact ul li a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.register button {
+    background-color: #1D4ED8;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 6px 10px;
+
+
+}
+
+.register button a {
+    text-decoration: none;
+    color: #fff;
 }
