@@ -33,11 +33,6 @@ nav {
 }
 
 
-a:hover {
-   cursor: pointer;
-   color: green;
-}
-
 .cmn-button {
     background-color: #1D4ED8;
     font-family: "Inter", sans-serif;
