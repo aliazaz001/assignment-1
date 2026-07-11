@@ -348,3 +348,26 @@ header {
   font-weight: bold;
   color: #0F1729;
 }
+/*footer start */
+
+footer {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer p {
+  font-size: 14px;
+  color: #cccccc;
+}
+
+footer .links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 20px;
+}
